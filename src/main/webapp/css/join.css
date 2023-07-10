@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+*{	font-size: 14px;
+	background-color: rgb(0, 0, 0);
+}
+	
+table {
+	    margin-left:auto; 
+	    margin-right:auto;
+	    border-collapse : collapse;
+		border-spacing : 0;
+	}	
+input:focus::placeholder{
+	    color:transparent;
+	}
+
+input{
+		border:none;
+		outline: none;
+	}
+
+#box_tel, select > option{
+	font-size: 10px; 
+	text-align: left;
+}
+#box_id, #box_pwd, #box_name, #box_birth, #box_email, #box_tel, #box_phone{
+	border: 1px solid gray;
+	background-color: white;
+	width: 250px;
+	height: 25px;
+	align-items:  stretch;
+}
+#box_id{
+	border-radius: 5px 5px 0px 0px;
+}
+#box_phone{
+	border-radius: 0px 0px 5px 5px ;
+	
+}
+#teltxt{
+	font-weight: normal;
+}
+img{
+	width: 10px; height: 10px;
+	margin-left: 0px;
+	background-color: white;
+}
+.deco{
+	background: white;
+}
+#m_id, #m_pwd,#m_name, #m_birth, #m_email, #m_tel, #m_phone, #teltxt {
+	background-color: white;
+}
+.buttons{
+	cursor: pointer;
+	background-color: white;
+	border: 1px solid gray;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+#btn{
+	width: 250px; 
+	height: 10px;
+}
+#peo_tel{
+	margin-left:30px; 
+}
+#teltxt{
+	color: gray;
+}
+#m_tel_box{
+	margin-left: 10px;
+	background-color: white;
+}
+#test{
+	margin-top: 10px;
+}
